@@ -1,0 +1,15 @@
+{
+  "name": "RPi Temp Monitor",
+  "version": "0.1",
+  "slug": "rpi_temp_mon",
+  "description": "This monitors the temperature of the raspberry pi",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "hassio_api": true,
+  "host_network": true,
+  "homeassistant_api": true,
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+  },
+  "schema": {}
+}
