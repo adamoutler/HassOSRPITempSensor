@@ -10,6 +10,9 @@
   "startup": "application",
   "boot": "auto",
   "options": {
+     "CorF": "F"
   },
-  "schema": {}
+  "schema": {
+    "CorF": "str"
+}
 }
