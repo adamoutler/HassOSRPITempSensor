@@ -1,7 +1,7 @@
 {
   "name": "RPi Temp Monitor",
-  "version": "0.3",
-  "slug": "rpi_temp_mon",
+  "version": "0.4",
+  "slug": "rpitempmon",
   "description": "This monitors the temperature of the raspberry pi",
   "arch": ["armhf", "armv7", "aarch64"],
   "hassio_api": false,
@@ -9,8 +9,10 @@
   "homeassistant_api": true,
   "startup": "application",
   "boot": "auto",
+  "auth_api": true,
+  "url": "https://community.home-assistant.io/t/new-addon-raspbery-pi-temp-sensor/260609",
   "options": {
-     "CorF": "F"
+    "CorF": "F"
   },
   "schema": {
     "CorF": "str"
